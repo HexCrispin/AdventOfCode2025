@@ -4,8 +4,8 @@ const DIAL_START_NUMBER = 50;
 const DIAL_BOTTOM_NUMBER = 0;
 const DIAL_TOP_NUMBER = 99;
 const DIAL_MODULO = DIAL_TOP_NUMBER - DIAL_BOTTOM_NUMBER + 1;
-const INPUT_FILE = 'Day1Input.txt';
-// const INPUT_FILE = 'Day1ExampleInput.txt';
+const INPUT_FILE = 'Day1/input.txt';
+// const INPUT_FILE = 'Day1/example.txt';
 
 let timesZero=0
 
