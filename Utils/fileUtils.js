@@ -26,7 +26,7 @@ function readFileLines(filePath) {
  */
 function readFileLinesFiltered(filePath) {
   const data = fs.readFileSync(filePath, 'utf8');
-  return data.split('\n').filter(line => line.trim() !== '');
+  return data.replace(/\r/g, '').split('\n').filter(line => line.trim() !== '' );
 }
 
 module.exports = {
